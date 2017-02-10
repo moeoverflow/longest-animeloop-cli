@@ -24,3 +24,23 @@ A: First, since animeloop-cli gives you all the possible loops, it searches from
 
 Second, both projects need further refactoring and refinements. It's hard to keep pace because of the different search goal.
 (Maybe these two repo will combine in the future)
+
+### Example
+for video like
+
+```ABACDEABACDEB```
+
+and duration [1, 7]
+
+animeloop-cli gives you
+* ABA
+* ABACDEA
+* ACDEA
+* DEABACD
+* EABACDE
+* ABA
+* BACDEB
+
+however, longest-animeloop-cli gives you
+* ABACDEA
+* BACDEB
