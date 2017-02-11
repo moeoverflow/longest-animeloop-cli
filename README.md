@@ -28,7 +28,9 @@ Second, both projects need further refactoring and refinements. It's hard to kee
 ### Example
 for video like
 
-```ABACDEABACDEB```
+```
+ABACDEABACDEB
+```
 
 and duration [1, 7]
 
